@@ -5,8 +5,6 @@ const TodosPage = (): ReactElement => {
    return (
       <>
          <h1>Todos page🗓️</h1>
-         {/* @ts-ignore */}
-         <TodosList />
       </>
    );
 };
