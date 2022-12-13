@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Todo } from '../../../types/todo.interface';
+import { Todo } from '../../../../types/todo.interface';
 import { notFound } from 'next/navigation';
 
 export const dynamicParams = true;

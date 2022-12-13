@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Todo } from '../../../types/todo.interface';
+import { Todo } from '../../../../types/todo.interface';
 import Link from 'next/link';
 
 const fetchTodos = async (): Promise<Todo[]> => {
